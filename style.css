@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+.container{
+    width: 1440px;
+    background-color: #ffffff;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 121px;
+
+}
+header .payment{
+    width: 400px;
+}
+header .payme {
+    width: 586px;
+}
+header .payme h1{
+    color: #1786F9;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 138%;
+    text-transform: capitalize;
+    padding-top: 29px;
+}
+header .payme p{
+    font-size: 18px;
+    line-height: 151%;
+    padding-top: 27px;
+
+}
+header .payme .buttons{
+    margin-top: 24px;
+    display: flex;
+    gap: 18px;
+}
+header .payme button{
+    width: 187px;
+    display: flex;
+    text-align: center;
+    border: 0;
+    background-color: #fff;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+    margin-top: 50px;
+}
+.cards .card img{
+    border-radius: 20px;
+}
+.cards h1{
+    color: #1786F9;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 27px;
+    padding-left: 7px;
+}
+.cards .card{
+    width: 544px;
+}
+.cards .card .checked {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+    padding-left: 7px;
+}
+
+.cards .card .checked .check1{
+    gap: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+.cards .card .check1 img{
+    margin-right: 13px;
+}
+.cards .card #link{
+    margin-left: 12px;
+    margin-top: 45px;
+    margin-bottom: 19px;
+    width: 286px;
+    height: 54px;
+    background-color: #F8D617;
+    border-radius: 7px;
+    border: 0;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.cards .card #link a{
+    text-decoration: none;
+    color: #171f4E;
+}
+.cards .card #link:hover{
+    background-color: #1786F9;
+}
+.cards .card p{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 175%;
+}
+.cards .card2 p{
+    margin-top: 19px;
+    padding-left: 7px;
+}
+.cards .card2 #link{
+    margin-top: 67px;
+    margin-bottom: 21px;
+}
+.cards .card3 p{
+    margin-top: 27px;
+    margin-bottom: 90px;
+    padding-left: 7px;
+}
+.cards .card4 p{
+    margin-top: 19px;
+    margin-bottom: 67px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer h1{
+    color: #171F4E;
+    font-size: 40px;
+    font-weight: 600;   
+}
+footer p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+footer .boxes {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 150px 160px 160px;
+
+}
+footer .boxes .box{
+    width: 220px;
+}
+footer .boxes .box p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 134%;
+}
+footer .boxes .box2{
+    width: 270px;
+}
+footer .boxes .box3{
+    width: 266px;
+}
+footer .boxes .box4{
+    width: 238px;
+}
